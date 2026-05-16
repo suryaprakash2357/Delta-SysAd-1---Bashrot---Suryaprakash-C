@@ -4,4 +4,4 @@ chown root:guards /scripts/taxLeaderboard.sh
 setfacl -m g:wardens:rx /scripts/taxLeaderboard.sh
 
 sudo crontab -e
-Add this to crontab file : */5 * * * 5,6 /scripts/collectTax
+Add this to crontab file : */5 * * * 5,6 /scripts/collectTax.sh
